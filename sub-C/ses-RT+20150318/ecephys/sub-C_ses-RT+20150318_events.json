@@ -1,0 +1,67 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "go_cue_time_array": {
+        "Description": "time when the go cue is given"
+    },
+    "target_id": {
+        "Description": "target id"
+    },
+    "num_targets": {
+        "Description": "number of targets"
+    },
+    "num_attempted": {
+        "Description": "number of attempted targets"
+    },
+    "target_dir": {
+        "Description": "target direction"
+    },
+    "target_size": {
+        "Description": "target size"
+    },
+    "result": {
+        "Description": "trial outcome, R: reward, A: abort, F: fail, I: incomplete"
+    },
+    "target_1_x_position": {
+        "Description": "x position of the first target"
+    },
+    "target_1_y_position": {
+        "Description": "y position of the first target"
+    },
+    "target_2_x_position": {
+        "Description": "x position of the second target"
+    },
+    "target_2_y_position": {
+        "Description": "y position of the second target"
+    },
+    "target_3_x_position": {
+        "Description": "x position of the third target"
+    },
+    "target_3_y_position": {
+        "Description": "y position of the third target"
+    },
+    "target_4_x_position": {
+        "Description": "x position of the fourth target"
+    },
+    "target_4_y_position": {
+        "Description": "y position of the fourth target"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials."
+    }
+}
