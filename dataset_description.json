@@ -1,0 +1,20 @@
+{
+    "Name": "Long-term recordings of motor and premotor cortical spiking activity during reaching in monkeys",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This dataset contains electrophysiology and behavioral data from three macaques performing either a center-out task or a continuous random target acquisition task. Neural activity was recorded from chronically-implanted electrode arrays in the primary motor cortex (M1) or dorsal premotor cortex (PMd) of four rhesus macaque monkeys. A subset of sessions includes recordings from both regions simultaneously. The data contains spiking activity\u2014manually spike sorted in three subjects, and threshold crossings in the fourth subject\u2014obtained from up to 192 electrodes per session, cursor position and velocity, and other task related metadata.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Perich, Matthew G.",
+        "Miller, Lee E."
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}

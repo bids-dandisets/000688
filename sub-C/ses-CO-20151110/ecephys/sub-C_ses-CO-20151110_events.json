@@ -1,0 +1,40 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "target_on_time": {
+        "Description": "time when the target is shown"
+    },
+    "go_cue_time": {
+        "Description": "time when the go cue is given"
+    },
+    "target_id": {
+        "Description": "target id"
+    },
+    "target_corners": {
+        "Description": "target corners"
+    },
+    "target_dir": {
+        "Description": "target direction"
+    },
+    "result": {
+        "Description": "trial outcome, R: reward, A: abort, F: fail, I: incomplete"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "Delayed center-out reaching trial."
+    }
+}
