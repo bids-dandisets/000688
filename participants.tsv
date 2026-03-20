@@ -1,5 +1,5 @@
-participant_id	species	sex
-sub-C	Macaca mulatta	M
-sub-J	Macaca mulatta	M
-sub-M	Macaca mulatta	M
-sub-T	http://purl.obolibrary.org/obo/NCBITaxon_9541	M
+participant_id	original_participant_id	species	sex
+sub-C	sub-C	Macaca mulatta	M
+sub-J	sub-J	Macaca mulatta	M
+sub-M	sub-M	Macaca mulatta	M
+sub-T	sub-T	http://purl.obolibrary.org/obo/NCBITaxon_9541	M
